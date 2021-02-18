@@ -78,7 +78,7 @@ var actions = [
     output() {
       let a = '';
       a +=
-        "Copyright © 1919-810 <d href='https://186526.xyz' color='yellow'>186526</d>\n";
+        "Copyright © 2017-2021 <d href='https://www.dakaliu.com' color='yellow'>大咖流</d>\n";
       a += "Hosted:<d href='https://vercel.com' color='yellow'>'Vercel'</d>\n";
       a += `CDN Provider:\n    ["<d href='https://cloudflare.com' color='yellow'>Cloudflare</d>","<d href='https://vercel.com' color='yellow'>Vercel</d>"]\n`;
       a +=
