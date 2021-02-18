@@ -1,7 +1,7 @@
 let config = {
   terminal: {
     title: `Terminal at 大咖流`,
-    user: 'i',
+    user: 'admin',
     hostname: 'dakaliu',
     welcome: 'Welcome to <d color="#00f501">大咖流</d> terminal',
     actions: [],
