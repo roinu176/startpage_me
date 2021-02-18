@@ -1,0 +1,50 @@
+{
+    "routes": [
+        {
+            "src": "/(.*)",
+            "headers": {
+                "Cache-Control": "s-maxage=1209600, max-age=86400, public",
+                "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+                "Access-Control-Allow-Headers": "Accept, Authorization, Cache-Control, Content-Type, DNT, If-Modified-Since, Keep-Alive, Origin, User-Agent, X-Requested-With, Token, x-access-token"
+            },
+            "continue": true
+        },
+        {
+            "src": "/avatar",
+            "headers": {
+                "Content-Type": "text/plain"
+            },
+            "continue": true
+        },
+        {
+            "src": "/goto/github",
+            "status": 302,
+            "headers": {
+                "Location": "https://github.com/186526"
+            }
+        },
+        {
+            "src": "/goto/telegram",
+            "status": 302,
+            "headers": {
+                "Location": "https://t.me/real186526"
+            }
+        },
+        {
+            "src": "/goto/blog",
+            "status": 302,
+            "headers": {
+                "Location": "https://blogging.186526.xyz"
+            }
+        },
+        {
+            "src": "/goto/email",
+            "status": 302,
+            "headers": {
+                "Location": "mailto:i@186526.xyz"
+            }
+        }
+    ]
+}

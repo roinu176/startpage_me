@@ -1,0 +1,72 @@
+{
+    "name": "186526 Homesite",
+    "short_name": "186526.xyz",
+    "lang": "zh-CN",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#2A2734",
+    "background_color": "#FBDBC4",
+    "icons": [
+        {
+            "src": "./pic/maskable.png",
+            "sizes": "1269x1269",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./pic/avatar-round.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Blog",
+            "short_name": "Blog",
+            "description": "Go to My Blog",
+            "url": "/goto/blog",
+            "icons": [
+                {
+                    "src": "/icons/rss.png",
+                    "sizes": "819x819"
+                }
+            ]
+        },
+        {
+            "name": "Github",
+            "short_name": "Github",
+            "description": "visit to My github",
+            "url": "/goto/github",
+            "icons": [
+                {
+                    "src": "/icons/github.png",
+                    "sizes": "819x819"
+                }
+            ]
+        },
+        {
+            "name": "Telegram",
+            "short_name": "Telegram",
+            "description": "Talk with me on Telegram",
+            "url": "/goto/telegram",
+            "icons": [
+                {
+                    "src": "/icons/telegram.png",
+                    "sizes": "819x819"
+                }
+            ]
+        },
+        {
+            "name": "email",
+            "short_name": "email",
+            "description": "Talk with me on email",
+            "url": "/goto/email",
+            "icons": [
+                {
+                    "src": "/icons/email.png",
+                    "sizes": "819x819"
+                }
+            ]
+        }
+    ]
+}
