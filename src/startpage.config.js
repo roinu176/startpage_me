@@ -9,8 +9,8 @@ let config = {
   friends: [
     {
       name: `小柒`,
-      QQ: '9343981',
-      WeChat: 'http://t.cn/A6tcnVjW',
+      description: '啥都不会的咸鱼...',
+      url: 'http://t.cn/A6tcnVjW',
     },
   ],
   neofetch: [
@@ -76,7 +76,7 @@ config.neofetch = (async (a) => {
   return b;
 })(config.neofetch);
 config.ga.enabled = ((a) => {
-  if (a === 'G-PVVC00CJ26' && window.location.host == '186526.xyz') {
+  if (a === 'G-PVVC00CJ26' && window.location.host == 'www.dakaliu.com') {
     return true;
   } else if (window.location.host.search('localhost') != -1) {
     return false;
