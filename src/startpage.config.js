@@ -6,11 +6,11 @@ let config = {
     welcome: 'Welcome to <d color="#00f501">大咖流</d> terminal',
     actions: [],
   },
-  Contact me: [
+  friends: [
     {
-      name: `小柒`,
-      description: '啥都不会的咸鱼...',
-      url: 'http://t.cn/A6tcnVjW',
+      name: `null`,
+      description: '暂无',
+      url: '#',
     },
   ],
   neofetch: [
@@ -51,7 +51,7 @@ let config = {
 config.terminal.prefix = `<d color="#00f501">${config.terminal.user}@${config.terminal.hostname}</d><d color="white">:</d><d color="blue">~</d><d color="white">$</d> `;
 config.friends = ((a) => {
   let b = '';
-  b += `<d color="#ceedf2">Contact me</d>\n`;
+  b += `<d color="#ceedf2">My friend</d>\n`;
   for (let i in a) {
     b += `        <d color="#00cdcd">name</d>:<d color="#7f7f7f">${a[i].name}</d>\n`;
     b += `        <d color="#00cdcd">description</d>:<d color="#7f7f7f">${a[i].description}</d>\n`;
